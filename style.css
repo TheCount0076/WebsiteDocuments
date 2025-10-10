@@ -16,6 +16,7 @@ h1{
 	font-family: "orbitron";
 	color: black;
 	font-size: 6vw;
+	padding-left: 2px;
 }
 .navbar{
 	width: 100%;
@@ -63,7 +64,24 @@ footer {
 }
 h2{
 	font-family: "orbitron";
+	padding-left: 8px;
 }
 h3{
 	font-family: "orbitron";
+}
+p{
+	padding-left: 16px;
+}
+.link{
+	padding-left: 16px;
+}
+.footergrid{
+	display: grid;
+	grid-template-columns: 34vw 30vw 30vw;
+	gap: 2vw;
+	justify-content: right;
+}
+.footergrid > div{
+	vertical-align: middle;
+	justify-content: right;
 }
