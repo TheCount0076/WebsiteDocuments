@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name = "viewport" content = "width = device-width, initial scale = 1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name = "author" content = "TheCount">
     <link href = "style.css" rel = "stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
             <br>Because I was told to</h1>
 	</div>
 	<div class = "navbar">
-	    <a href="index.html" target="blank">Home</a>
+	<a href="index.html" target="_blank">Home</a>
 		<a href="AboutMePage.html">About Me</a>
 		<a href="Campaigns.html">Campaigns</a>
 		<a href="CardGamesPage.html">Card Games</a>
@@ -27,13 +27,91 @@
 
 	
 <main>
+	<section>
+		<h2>Welcome to the Cat Corner</h2>
+		<p>Welcome to the official cat page! Below you'll find a little bit about why cats are great, some practical care tips, and links to helpful resources. If you have a cat story or photo, hop over to the <a href="ContactMePage.html">Contact</a> page and tell me about it.</p>
+	</section>
+
+	<section>
+		<h2>Gallery (placeholders)</h2>
+		<p>Replace the images below by adding files to an <code>images/</code> folder (e.g. <code>images/cat1.jpg</code>).</p>
+		<div class="cat-gallery">
+			<figure>
+				<img src="images/cat1.jpg" alt="Tabby cat resting on a windowsill">
+				<figcaption>Sunny window naps</figcaption>
+			</figure>
+			<figure>
+				<img src="images/cat2.jpg" alt="Playful kitten with a toy">
+				<figcaption>Playful kitten</figcaption>
+			</figure>
+			<figure>
+				<img src="images/cat3.jpg" alt="Long-haired cat looking curious">
+				<figcaption>Curious whiskers</figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section>
+		<h2>Cat Care Tips</h2>
+		<ul>
+			<li>Fresh water and balanced food are essential — change water daily and follow feeding recommendations for your cat's age and weight.</li>
+			<li>Regular vet checkups, vaccines, and parasite control keep cats healthy.</li>
+			<li>Provide toys, scratching posts, and safe places to climb to keep your cat mentally and physically active.</li>
+			<li>Spay or neuter your pet to reduce unwanted behaviors and help control the cat population.</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Fun Cat Facts</h2>
+		<ul>
+			<li>Cats can make over 100 different vocal sounds; dogs can make about 10.</li>
+			<li>A group of cats is called a clowder.</li>
+			<li>Most cats sleep 12-16 hours a day — they're professional nappers.</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Resources & Adoption</h2>
+		<p>If you're thinking about adopting or need help, check your local shelter or the following organizations:</p>
+		<ul>
+			<li><a href="https://www.aspca.org/" target="_blank">ASPCA</a></li>
+			<li><a href="https://www.rspca.org.uk/" target="_blank">RSPCA</a></li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Color palette demo</h2>
+		<p>Preview the site colors and example buttons below.</p>
+		<div style="padding-left:20px;">
+			<div style="margin-bottom:8px;">
+				<span class="swatch" style="background:var(--bg)"></span> Background <code>--bg</code>
+			</div>
+			<div style="margin-bottom:8px;">
+				<span class="swatch" style="background:var(--text)"></span> Text <code>--text</code>
+			</div>
+			<div style="margin-bottom:8px;">
+				<span class="swatch" style="background:var(--primary)"></span> Primary <code>--primary</code>
+			</div>
+			<div style="margin-bottom:8px;">
+				<span class="swatch" style="background:var(--secondary)"></span> Secondary <code>--secondary</code>
+			</div>
+			<div style="margin-bottom:12px;">
+				<span class="swatch" style="background:var(--accent)"></span> Accent <code>--accent</code>
+			</div>
+
+			<div style="margin-top:12px;">
+				<button class="btn btn-primary">Primary button</button>
+				<button class="btn btn-accent">Accent button</button>
+			</div>
+		</div>
+	</section>
 
 </main>
 
 <footer>
-    <p>&copy;The Count 2025
-        <br> Page last updated 4/10/2025
-    </p>
+	<p>&copy;The Count 2025
+		<br> Page last updated 10/10/2025
+	</p>
 </footer>
 </body>
 </html>
