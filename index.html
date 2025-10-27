@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="TheCount">
-    <link href="style.css?v=20251014" rel="stylesheet">
+    <link href="style.css?v=20251017" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>The Count</title>
@@ -17,7 +17,8 @@
         <div>
             <h1>The Count</h1>
         </div>
-        <div class="navbar">
+        <div class="navbar" id="navigation">
+            <button class="nav-toggle" aria-label="Open menu" onclick="drop_down()"><i class="fa-solid fa-bars"></i></button>
             <a href="index.html" target="_blank">Home</a>
             <a href="AboutMePage.html">About Me</a>
             <a href="Campaigns.html">Campaigns</a>
@@ -60,8 +61,7 @@
         <section>
             <h2>Spotify</h2>
             <p>Yes I listen to music, yes you can find my profile here</p>
-            <!-- TODO: Update this link to your actual Spotify profile or remove if not needed -->
-            <a href="Linknotadded.html" class="link"> Link not configured</a>
+            <a href="https://open.spotify.com/user/31rjggsqqgb55iaja337ezbbbyky?si=c881b2c2188b4517" class="link"> The Count on Spotify</a>
         </section>
         <section>
             <h2>Quotes</h2>
@@ -72,7 +72,7 @@
         <a href="CatsPage.html" class="link"> Cats</a>
 
     </main>
-
+    
     <footer>
         <div class="footergrid">
             <div>
@@ -87,12 +87,13 @@
                 <a style="color: #F5F5F5;" href="https://discord.com"><i class="fa-brands fa-discord fa-2x"></i></a>
             </div>
             <div>
-                
                 <!-- TODO: Add href to your Discord and GitHub profiles below -->
                 <a style="color: #F5F5F5;" href="https://github.com/TheCount0076"><i class="fa-brands fa-github fa-2x"></i></a>
             </div>
         </div>
     </footer>
+
+    <script src="nav.js?v=20251018"></script>
 </body>
 
 </html>
