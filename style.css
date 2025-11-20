@@ -96,7 +96,9 @@ p{
 	padding-left: 20px;
 }
 
-
+.underlined{
+	text-decoration: underline;
+}
 
 
 
@@ -276,4 +278,47 @@ p{
 }
 .SmallH1{
 	font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+
+
+/**************************************************CONTACT PAGE SPECIFIC**************************************************/
+.contactusgrid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 10% 80% 10%;
+    gap: 0%;
+}
+.contactusbox{
+    background-color: #171615;
+   
+    padding-left: 3%;
+    padding-top: 1px;
+    padding-bottom: 1%;
+}
+.contactusboxmini{
+    background-color: #171615;
+   
+    padding-left: 3%;
+    padding-top: 1px;
+    padding-bottom: 1%;
+}
+@media screen and (max-width: 700px){
+    .contactusbox{
+        display: none;
+    }
+}
+@media screen and (min-width: 701px){
+    .contactusboxmini{
+        display: none;
+    }
+}
+
+
+/**************************************************WIKI PAGE SPECIFIC**************************************************/
+.threewaygrid{
+	display: grid;
+	width: 90%;
+	grid-template-columns: 30% 30% 30%;
+	gap: 5%;
 }
